@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR Music Player - Now Playing</title>
+     <link rel="icon" type="image/png" href="pr.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="pr.png" alt="Logo" class="logo" height="40" width="40" align="left">
+        <h1> PR Music Player</h1>
+    </header>
+    <main id="player">
+        <img id="player-art" src="" alt="Album Art">
+        <h2 id="player-title">Song Title</h2>
+        <audio id="audio" controls></audio>
+        <p id="timer">00:00 / 00:00</p>
+        <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
